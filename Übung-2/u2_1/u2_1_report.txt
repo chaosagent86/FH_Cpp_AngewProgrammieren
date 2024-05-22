@@ -1,0 +1,24 @@
+/*********************************************************
+Folgende Aenderungen wurden durchgeführt:
+
+Verwendung einheitlicher Sprache (statt zuvor Durchmischung von Deutsch und Englisch)
+==> Dadurch ist zum einen eine bessere Lesbarkeit gegeben (insbesondere durch die Verwendung der englischen Sprache)
+==> Andererseits lassen sich so Umlaute sehr einfach vermeiden, das sie im Englischen schlicht nicht vorkommen
+==> Das Programm wirkt im Allgemeinen "runder"
+
+ Verwendung vernünftiger und aussagekräftiger Funktionsnamen
+ Sowie Verwendung von Funktionen mit möglichst geringem und eindeutigem Funktionsinhalt. Diese sollten nach Möglichkeit nur eine einzige Sache durchführen.
+ ==> Das Verständnis für das Programm wird drastisch erhöht, da sich direkt herauslesen lässt, wofür eine Funktion geschrieben wurde.
+ ==> Auch das Fehlerbeheben etc. lässt sich deutlich leichter durchführen
+ ==> Die Komplexität wird durch Aufteilung in viele kleinere Funktionen erniedrigt.
+ 
+ Verwendung vernünftiger Variablennamen
+ ==> durch Verwendung von header statt h ist sofort klar, was hier gespeichert wird. Gleiches für sequence statt s. 
+ ==> Allgemein wird das Programm deutlich einfacher zu verstehen und lesbarer
+ ==> Auch ein späteres debugging wird zumindest dahingehend vereinfacht, als dass man nicht erst drüber nachdenken muss, wofür diese Variable stehen könnte und was ihr Sinn ist
+ 
+ Verwendung von relativen Pfaden (wenn überhaupt nötig) statt fix codierter.
+ ==> Programm wird eher portabel, kann auch an anderen PC mit eigener Ordnerstruktur verschoben werden und wird dennoch (höchstwahrscheinlich) funktionieren
+ 
+ Verwendung einheitlicher Schreibweisen --> PascalCase
+ ==> Das ist jetzt zwar im Original Code auch nicht wirklich sichtbar, im Clean Code wurde aber besonders darauf geachtet. Sorgt für eine bessere Lesbarkeit.
