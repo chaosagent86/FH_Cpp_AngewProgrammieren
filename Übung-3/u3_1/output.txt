@@ -1,0 +1,4 @@
+45 aatgaacacacctttgcacg
+27 aattagatgctcatt
+65 cacagtctcgatgacccgcc
+65 cacagtctcgatgacccgcccacagtctcgatgacccgcccacagtctcgatgacccgcc
